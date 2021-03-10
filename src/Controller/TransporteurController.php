@@ -9,6 +9,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Mailer\MailerInterface;
+use Symfony\Component\Mime\Email;
+use Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle;
+
 
 class TransporteurController extends AbstractController
 {
@@ -40,7 +44,7 @@ class TransporteurController extends AbstractController
      * @return \Symfony\Component\HttpFoundation\Response
      * @Route ("/transporteurs",name="ajoutertransporteur")
      */
-    function Add(Request $request)
+    function Add(Request $request,\Swift_Mailer $mailer)
     {
         $transporteur=new Transporteur();
         $form=$this->createForm(TransporteurType::class, $transporteur);
@@ -50,9 +54,29 @@ class TransporteurController extends AbstractController
         {
             $em=$this->getDoctrine()->getManager();
             $em->persist($transporteur);
+            $message = (new \Swift_Message('Bienvenue'))
+                ->setFrom('campihytaco@gmail.com')
+                ->setTo($transporteur->getMail())
+                ->setBody(
+                    'Bienvenue! vous êtes officiellement le transporteur de Heytaco, passez une merveilleuse journée.'
+                )
+            ;
+            $mailer->send($message);
             $em->flush();
             return $this->redirectToRoute('ajoutertransporteur');
+
         }
+        if($request->isMethod("POST"))
+        {
+            $nom = $request->get('nom');
+            $transporteur=$this->getDoctrine()->getManager()->getRepository(Transporteur::class)->findBy(array('nom'=>$nom));
+            return $this->render('back/transporteur.html.twig',
+                [
+                    'form'=>$form->createView(), 'trans'=>$transporteur
+                ]
+            );
+        }
+
         return $this->render('back/transporteur.html.twig',
             [
                 'form'=>$form->createView(), 'trans'=>$en
@@ -84,4 +108,6 @@ class TransporteurController extends AbstractController
             ]
         );
     }
+
+
 }

@@ -193,12 +193,12 @@ a:hover, a:active, a:focus {
   background-size: cover !important;
 }
 
-#aboutproject, #project,#event,#locaux,#abouteven,#aboutlocaux,#alerts,programme,
+#aboutproject, #project,#event,#locaux,#abouteven,#aboutlocaux,#abouttrans,#alerts,programme,
 #team, #connexion,#inscription,#contact, footer {
   background: #ffffff;
 }
 
-#aboutproject,#abouteven,#aboutlocaux,#alerts,programme,
+#aboutproject,#abouteven,#aboutlocaux,#abouttrans,#alerts,programme,
 #team, #connexion,#inscription, #contact {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -403,7 +403,7 @@ a:hover, a:active, a:focus {
   ABOUT              
 -----------------------------------------*/
 
-#aboutlocaux,#abouteven,#aboutproject {
+#aboutlocaux,#abouttrans,#abouteven,#aboutproject {
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -871,7 +871,7 @@ footer .copyright-text {
     padding-top: 0em;
   }
 
-  #aboutproject,#abouteven,#aboutlocaux {
+  #aboutproject,#abouteven,#aboutlocaux,#abouttrans {
     padding-top: 120px;
     padding-bottom: 100px;
   }

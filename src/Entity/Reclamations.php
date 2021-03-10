@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use App\Repository\ReclamationsRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass=ReclamationsRepository::class)
@@ -24,6 +25,12 @@ class Reclamations
 
     /**
      * @ORM\Column(type="string", length=50)
+     * * @Assert\Length(
+     *      min = 10,
+     *      max = 50,
+     *      minMessage = "minimum 10 caracteres!",
+     *      maxMessage = "maximum 50 caracteres!"
+     * )
      */
     private $description;
 
