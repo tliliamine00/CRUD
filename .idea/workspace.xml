@@ -16,30 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce6c6f35-525b-40a0-955b-c13cadc8eefa" name="Default Changelist" comment="CRUD">
-      <change afterPath="$PROJECT_DIR$/public/images/chauffeur1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/chauffeur2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/chauffeur3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/chauffeur4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/testbundle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/campi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/campi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/tooplate-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/tooplate-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/project-image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project-image1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/TransporteurController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TransporteurController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Reclamations.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Reclamations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/back/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/back/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/back/reclamations.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/back/reclamations.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/back/transporteur.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/back/transporteur.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/acceuil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/acceuil.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="ce6c6f35-525b-40a0-955b-c13cadc8eefa" name="Default Changelist" comment="CRUD" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,7 +200,7 @@
       <workItem from="1614943458026" duration="6690000" />
       <workItem from="1615215975432" duration="18123000" />
       <workItem from="1615244598597" duration="4009000" />
-      <workItem from="1615318806911" duration="10992000" />
+      <workItem from="1615318806911" duration="11779000" />
     </task>
     <task id="LOCAL-00001" summary="CRUD">
       <created>1614941350597</created>
@@ -232,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614941350597</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CRUD">
+      <created>1615334802307</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615334802307</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,10 +296,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1615330767368" />
-    <state x="301" y="120" key="Vcs.Push.Dialog.v2" timestamp="1615334715284">
+    <state x="301" y="120" key="Vcs.Push.Dialog.v2" timestamp="1615334809594">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="301" y="120" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615334715284" />
+    <state x="301" y="120" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615334809594" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614952578775" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614944998219">
       <screen x="0" y="0" width="1536" height="824" />
