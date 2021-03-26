@@ -8,6 +8,7 @@ use App\Repository\ReclamationsRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Ob\HighchartsBundle\Highcharts\Highchart;
 use Symfony\Component\Routing\Annotation\Route;
 
 class ReclamationsController extends AbstractController
@@ -83,4 +84,32 @@ class ReclamationsController extends AbstractController
             ]
         );
     }
+    /**
+     *  @Route("/statR", name="SR")
+     */
+
+
+    public function static (ReclamationsRepository $repo)
+    {
+        $ob = new Highchart();
+        $ob->chart->renderTo('linechart');
+        $ob->title->text('Statistique par rapport au type du réclamation client 2021');
+        $ob->plotOptions->pie(array(
+            'allowPointSelect'  => true,
+            'cursor'    => 'pointer',
+            'dataLabels'    => array('enabled' => false),
+            'showInLegend'  => true
+        ));
+        $offre=$repo->stat1();
+        $data =array();
+        foreach ($offre as $values)
+        {
+            $a =array($values['type'],intval($values['nbdep']));
+            array_push($data,$a);
+        }
+
+        $ob->series(array(array('type' => 'pie','name' => 'Browser share', 'data' => $data)));
+        return $this->render('back/reclamationsChart.html.twig', array(
+            'chart' => $ob
+        ));}
 }

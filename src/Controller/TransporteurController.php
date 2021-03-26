@@ -55,10 +55,10 @@ class TransporteurController extends AbstractController
             $em=$this->getDoctrine()->getManager();
             $em->persist($transporteur);
             $message = (new \Swift_Message('Bienvenue'))
-                ->setFrom('campihytaco@gmail.com')
+                ->setFrom('hytacocampi21@gmail.com')
                 ->setTo($transporteur->getMail())
                 ->setBody(
-                    'Bienvenue! vous êtes officiellement le transporteur de Heytaco, passez une merveilleuse journée.'
+                    'Bienvenue, vous êtes officiellement le chauffeur de Hytaco, veuillez attendre votre affectation!'
                 )
             ;
             $mailer->send($message);
@@ -82,6 +82,7 @@ class TransporteurController extends AbstractController
                 'form'=>$form->createView(), 'trans'=>$en
             ]
         );
+
     }
 
 

@@ -16,7 +16,35 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce6c6f35-525b-40a0-955b-c13cadc8eefa" name="Default Changelist" comment="CRUD+" />
+    <list default="true" id="ce6c6f35-525b-40a0-955b-c13cadc8eefa" name="Default Changelist" comment="CRUD+">
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210323122714.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/FronttransController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/EmailRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/back/reclamationsChart.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/front/consult.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/fronttrans/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/campi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/campi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20210304193938.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/templatemo-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/templatemo-green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/templatemo-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/FrontaccController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FrontaccController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ReclamationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ReclamationsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TransporteurController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TransporteurController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Reclamations.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Reclamations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ReclamationsType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ReclamationsType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ReclamationsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ReclamationsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/back/reclamations.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/back/reclamations.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/back/transporteur.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/back/transporteur.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/acceuil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/acceuil.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +53,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML4 File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -146,6 +181,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-json" />
+      <path value="$PROJECT_DIR$/vendor/ob/highcharts-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1p2LSMQDwMiNTjmhReHCJZs5sM5" />
@@ -158,9 +195,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/back" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -174,6 +212,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\projet PI\Hytaco-master\templates\back" />
+      <recent name="C:\xampp\projet PI\Hytaco-master\src\Controller" />
+      <recent name="C:\xampp\projet PI\Hytaco-master\templates\front" />
       <recent name="C:\xampp\web\campi\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -200,7 +241,18 @@
       <workItem from="1614943458026" duration="6690000" />
       <workItem from="1615215975432" duration="18123000" />
       <workItem from="1615244598597" duration="4009000" />
-      <workItem from="1615318806911" duration="12200000" />
+      <workItem from="1615318806911" duration="13089000" />
+      <workItem from="1615407737797" duration="1230000" />
+      <workItem from="1615467348937" duration="5085000" />
+      <workItem from="1616496813616" duration="5666000" />
+      <workItem from="1616522492252" duration="1140000" />
+      <workItem from="1616527388698" duration="2102000" />
+      <workItem from="1616602263732" duration="9518000" />
+      <workItem from="1616628521591" duration="5972000" />
+      <workItem from="1616708606272" duration="1053000" />
+      <workItem from="1616713022733" duration="2378000" />
+      <workItem from="1616752063076" duration="488000" />
+      <workItem from="1616771887089" duration="4990000" />
     </task>
     <task id="LOCAL-00001" summary="CRUD">
       <created>1614941350597</created>
@@ -223,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615335972212</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CRUD+">
+      <created>1615336299182</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615336299182</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +310,21 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="CRUD/tliliamine" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,6 +337,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="CRUD+" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="105" y="49" key="#Deployment" timestamp="1616776937145">
+      <screen x="0" y="0" width="1024" height="779" />
+    </state>
+    <state x="105" y="49" key="#Deployment/0.0.1024.779@0.0.1024.779" timestamp="1616776937145" />
     <state x="427" y="195" key="#Notifications" timestamp="1615336047859">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -280,19 +358,28 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="400" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1615236640797" />
+    <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1616612589845">
+      <screen x="0" y="0" width="1024" height="779" />
+    </state>
+    <state x="243" y="145" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1024.779@0.0.1024.779" timestamp="1616612589845" />
     <state x="558" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1614425474095">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="558" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.2.1536.840/0.0.1600.870@0.0.1600.870" timestamp="1614425474095" />
-    <state x="189" y="97" key="DiffContextDialog" timestamp="1615335934802">
+    <state x="189" y="97" key="DiffContextDialog" timestamp="1615336366916">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="189" y="97" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1615335934802" />
-    <state x="458" y="138" key="FileChooserDialogImpl" timestamp="1615335839064">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="189" y="97" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1615336366916" />
+    <state x="366" y="158" key="FileChooserDialogImpl" timestamp="1616528304614">
+      <screen x="0" y="0" width="1024" height="779" />
     </state>
+    <state x="366" y="158" key="FileChooserDialogImpl/0.0.1024.779@0.0.1024.779" timestamp="1616528304614" />
     <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1615335839064" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614944747005" />
+    <state x="438" y="208" key="Github.CreatePullRequestDialog" timestamp="1615336274515">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="208" key="Github.CreatePullRequestDialog/0.0.1280.680@0.0.1280.680" timestamp="1615336274515" />
     <state x="635" y="310" key="Github.ShareDialog" timestamp="1614945161782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -309,10 +396,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1615330767368" />
-    <state x="301" y="120" key="Vcs.Push.Dialog.v2" timestamp="1615336151188">
+    <state x="301" y="120" key="Vcs.Push.Dialog.v2" timestamp="1615336377735">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="301" y="120" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615336151188" />
+    <state x="301" y="120" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615336377735" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614952578775" />
     <state x="488" y="269" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615336160278">
       <screen x="0" y="0" width="1280" height="680" />
